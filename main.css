@@ -1,57 +1,73 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
-
 nav ul {
     display: flex;
     align-items: flex-start;
     list-style-type: none;
-    margin-top: 20px;
-    margin-left: 15px;
-    margin-right: 10px;
-    padding: 0;
-    font-family: Nunito;
-    font-size: 14px;
+    margin-top: 12px;
+    margin-left: 10px;
+    margin-right: 2px;
+    padding: 10px;
+    font-family: Arial;
+    background-color: lightgray;
 }
 
 .push-right {
     margin-left: auto;
 }
 
-#About {
+#about {
     text-decoration: none;
     color: #222;
-    font-weight: bold;
+    font-size: 14px;
 }
 
-#Store {
+#about:hover {
+    text-decoration: underline;
+}
+
+#store {
     text-decoration: none;
     color: #222;
     margin-left: 20px;
-    font-weight: bold;
+    font-size: 14px;
 }
 
-#Gmail {
+#store:hover {
+    text-decoration: underline;
+}
+
+#gmail {
     text-decoration: none;
     color: #222;
     margin-right: 15px;
-    font-weight: bold;
+    font-size: 13px;
 }
 
-#Images {
+#gmail:hover {
+    text-decoration: underline;
+}
+
+#images {
     text-decoration: none;
     color: #222;
     margin-right: 25px;
-    font-weight: bold;
+    font-size: 13px;
 }
 
-#Apps {
+#images:hover {
+    text-decoration: underline;
+}
+
+#apps {
     margin-right: 20px;
 }
 
-#Profile {
-    display: block;
+#profile {
+    display: flex;
     border-radius: 50%;
-    width: 30px;
-    align-self: flex-end;
+    width: 32px;
+    justify-content: center;
+    background-color: lightgreen;
+    padding-bottom: 5px;
 }
 
 .google {
@@ -60,7 +76,7 @@ nav ul {
     height: 150px;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 110px;
+    padding-top: 140px;
 }
 
 .searchbar {
@@ -76,26 +92,42 @@ nav ul {
 .buttons {
     display: flex;
     justify-content: center;
+    outline: none;
 }
 
 .search-button {
     margin-right: 15px;
-    width: 135px;
+    margin-bottom: 10px;
+    width: 130px;
     height: 35px;
     font-size: 14px;
+    border-style: hidden;
+    background-color: whitesmoke;
+    font-family: Arial;
 }
 
 .lucky-button {
-    width: 135px;
+    width: 130px;
     height: 35px;
     font-size: 14px;
+    border-style: hidden;
+    background-color: whitesmoke;
+    font-family: Arial;
 }
 
 p {
-    font-family: Nunito;
+    font-family: Arial;
     text-align: center;
-    font-size: 14px;
+    font-size: 13px;
     padding-bottom: 10px;
+}
+
+#awesome {
+    text-decoration: none;
+}
+
+#awesome:hover {
+    text-decoration: underline;
 }
 
 footer ul{
@@ -104,18 +136,24 @@ footer ul{
     bottom: 0;
     left: 0;
     right: 0;
-    padding: 13px;
+    padding: 15px;
     list-style-type: none;
     background-color: whitesmoke;
     margin-bottom: 0;
     align-items: flex-start;
-    font-family: Nunito;
+    font-family: Arial;
+    font-size: 14px;
+}
+
+#leaf-size {
+    width: 12px;
+    margin-right: 8px;
 }
 
 #carbon {
     text-decoration: none;
     color: #70757a;
-    margin-left: 280px;
+    margin-left: 530px;
 }
 
 #advertising {
@@ -127,25 +165,25 @@ footer ul{
 #business {
     text-decoration: none;
     color: #70757a;
-    margin-left: 25px;
+    margin-left: 30px;
 }
 
 #how-search-works {
     text-decoration: none;
     color: #70757a;
-    margin-left: 25px;
+    margin-left: 30px;
 }
 
 #privacy {
     text-decoration: none;
     color: #70757a;
-    margin-right: 25px;
+    margin-right: 30px;
 }
 
 #terms {
     text-decoration: none;
     color: #70757a;
-    margin-right: 25px;
+    margin-right: 30px;
 }
 
 #settings {
