@@ -86,3 +86,63 @@ nav ul {
     height: 35px;
     font-size: 14px;
 }
+
+footer ul{
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    list-style-type: none;
+    background-color: whitesmoke;
+    margin-bottom: 0;
+    align-items: flex-start;
+    font-family: Nunito;
+}
+
+#carbon {
+    text-decoration: none;
+    color: #70757a;
+    margin-left: 280px;
+}
+
+#advertising {
+    text-decoration: none;
+    color: #70757a;
+    margin-left: 20px;
+}
+
+#business {
+    text-decoration: none;
+    color: #70757a;
+    margin-left: 25px;
+}
+
+#how-search-works {
+    text-decoration: none;
+    color: #70757a;
+    margin-left: 25px;
+}
+
+#privacy {
+    text-decoration: none;
+    color: #70757a;
+    margin-right: 25px;
+}
+
+#terms {
+    text-decoration: none;
+    color: #70757a;
+    margin-right: 25px;
+}
+
+#settings {
+    text-decoration: none;
+    color: #70757a;
+    margin-right: 20px;
+}
+
+.push {
+    margin-left: auto;
+}
