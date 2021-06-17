@@ -19,24 +19,28 @@ nav ul {
 #About {
     text-decoration: none;
     color: #222;
+    font-weight: bold;
 }
 
 #Store {
     text-decoration: none;
     color: #222;
     margin-left: 20px;
+    font-weight: bold;
 }
 
 #Gmail {
     text-decoration: none;
     color: #222;
     margin-right: 15px;
+    font-weight: bold;
 }
 
 #Images {
     text-decoration: none;
     color: #222;
     margin-right: 25px;
+    font-weight: bold;
 }
 
 #Apps {
@@ -87,13 +91,20 @@ nav ul {
     font-size: 14px;
 }
 
+p {
+    font-family: Nunito;
+    text-align: center;
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+
 footer ul{
     display: flex;
     position: absolute;
     bottom: 0;
     left: 0;
     right: 0;
-    padding: 10px;
+    padding: 13px;
     list-style-type: none;
     background-color: whitesmoke;
     margin-bottom: 0;
