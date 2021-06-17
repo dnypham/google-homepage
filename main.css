@@ -1,22 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+
 ul {
+    background-color: rosybrown;
     display: flex;
-    justify-content: space-between;
+    align-items: flex-start;
     list-style-type: none;
-    margin: 0;
+    margin-top: 20px;
+    margin-left: 15px;
     padding: 0;
+    font-family: Nunito;
 }
 
-#store {
-    text-align: left;
+#About {
+    background-color: blue;
+    text-decoration: none;
+    color: #222;
+}
+
+#Store {
+    background-color: red;
+    text-decoration: none;
+    color: #222;
+}
+
+#Gmail {
+    background-color: green;
+    text-decoration: none;
+    color: #222;
+}
+
+#Images {
+    background-color: yellow;
+    text-decoration: none;
+    color: #222;
+}
+
+#Apps {
+    background-color: purple;
+}
+
+#Profile {
+    background-color: skyblue;
+    display: block;
+    border-radius: 50%;
+    width: 35px;
 }
 
 .google {
+    background-color: red;
     display: block;
-    width: 200;
+    width: 100;
     height: 150px;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 150px;
+    padding-top: 140px;
 }
 
 .searchbar {
