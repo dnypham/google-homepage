@@ -1,0 +1,29 @@
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#store {
+    text-align: left;
+}
+
+.google {
+    display: block;
+    width: 200;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 150px;
+}
+
+.searchbar {
+    display: block;
+    width: 550px;
+    height: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 40px;
+}
