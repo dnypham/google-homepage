@@ -4,10 +4,9 @@ nav ul {
     list-style-type: none;
     margin-top: 12px;
     margin-left: 10px;
-    margin-right: 2px;
+    margin-right: 0;
     padding: 10px;
     font-family: Arial;
-    background-color: lightgray;
 }
 
 .push-right {
@@ -58,16 +57,16 @@ nav ul {
 }
 
 #apps {
+    position: relative;
+    top: -2px;
     margin-right: 20px;
 }
 
 #profile {
-    display: flex;
+    position: relative;
+    top: -6px;
     border-radius: 50%;
     width: 32px;
-    justify-content: center;
-    background-color: lightgreen;
-    padding-bottom: 5px;
 }
 
 .google {
@@ -156,10 +155,18 @@ footer ul{
     margin-left: 530px;
 }
 
+#carbon:hover {
+    text-decoration: underline;
+}
+
 #advertising {
     text-decoration: none;
     color: #70757a;
     margin-left: 20px;
+}
+
+#advertising:hover {
+    text-decoration: underline;
 }
 
 #business {
@@ -168,10 +175,18 @@ footer ul{
     margin-left: 30px;
 }
 
+#business:hover {
+    text-decoration: underline;
+}
+
 #how-search-works {
     text-decoration: none;
     color: #70757a;
     margin-left: 30px;
+}
+
+#how-search-works:hover {
+    text-decoration: underline;
 }
 
 #privacy {
@@ -180,16 +195,28 @@ footer ul{
     margin-right: 30px;
 }
 
+#privacy:hover {
+    text-decoration: underline;
+}
+
 #terms {
     text-decoration: none;
     color: #70757a;
     margin-right: 30px;
 }
 
+#terms:hover {
+    text-decoration: underline;
+}
+
 #settings {
     text-decoration: none;
     color: #70757a;
     margin-right: 20px;
+}
+
+#settings:hover {
+    text-decoration: underline;
 }
 
 .push {
