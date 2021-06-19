@@ -14,9 +14,12 @@ nav ul {
 }
 
 #about {
+    position: relative;
     text-decoration: none;
     color: #222;
     font-size: 14px;
+    margin-left: -2px;
+    top: -1px;
 }
 
 #about:hover {
@@ -24,10 +27,12 @@ nav ul {
 }
 
 #store {
+    position: relative;
     text-decoration: none;
     color: #222;
     margin-left: 20px;
     font-size: 14px;
+    top: -1px;
 }
 
 #store:hover {
@@ -35,10 +40,12 @@ nav ul {
 }
 
 #gmail {
+    position: relative;
     text-decoration: none;
     color: #222;
     margin-right: 15px;
     font-size: 13px;
+    top: -2px;
 }
 
 #gmail:hover {
@@ -46,10 +53,12 @@ nav ul {
 }
 
 #images {
+    position: relative;
     text-decoration: none;
     color: #222;
-    margin-right: 25px;
+    margin-right: 19px;
     font-size: 13px;
+    top: -2px;
 }
 
 #images:hover {
@@ -58,15 +67,32 @@ nav ul {
 
 #apps {
     position: relative;
-    top: -2px;
-    margin-right: 20px;
+    top: -12px;
+    margin-right: 8px;
+    background-color: transparent;
+    padding: 8px;
+    border-radius: 50%;
+}
+
+#apps:hover {
+    background-color: whitesmoke;
+    border-radius: 50%;
+
 }
 
 #profile {
     position: relative;
-    top: -6px;
+    top: -12px;
+    margin-right: -3px;
     border-radius: 50%;
     width: 32px;
+    padding: 4px;
+    background-color: transparent;
+}
+
+#profile:hover {
+    position: relative;
+    background-color: whitesmoke;
 }
 
 .google {
@@ -75,17 +101,31 @@ nav ul {
     height: 150px;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 140px;
+    padding-top: 80px;
 }
 
 .searchbar {
-    display: block;
+    display: flex;
     width: 550px;
-    height: 35px;
+    height: 40px;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 40px;
+    border-radius: 30px;
     font-size: 16px;
+    border: solid;
+    border-color: #dadce8;
+    border-width: 1px;
+    position: relative;
+}
+
+.searchbar:hover {
+    box-shadow: 0 1px 6px rgba(32,33,36,.20);
+}
+
+.search-image {
+    background-color: wheat;
+    position: absolute;
+    height: 18px;
 }
 
 .buttons {
@@ -101,8 +141,16 @@ nav ul {
     height: 35px;
     font-size: 14px;
     border-style: hidden;
-    background-color: whitesmoke;
+    background-color: #F8F8F8;
     font-family: Arial;
+}
+
+.search-button:hover {
+    border-style: solid;
+    border-radius: 4px;
+    border-width: 1px;
+    border-color: #dadce8;
+    box-shadow: 0 1px 1px rgba(0,0,0,.1);
 }
 
 .lucky-button {
@@ -110,8 +158,16 @@ nav ul {
     height: 35px;
     font-size: 14px;
     border-style: hidden;
-    background-color: whitesmoke;
+    background-color: #F8F8F8;
     font-family: Arial;
+}
+
+.lucky-button:hover {
+    border-style: solid;
+    border-radius: 4px;
+    border-width: 1px;
+    border-color: #dadce8;
+    box-shadow: 0 1px 1px rgba(0,0,0,.1);
 }
 
 p {
@@ -123,6 +179,7 @@ p {
 
 #awesome {
     text-decoration: none;
+    color: blue;
 }
 
 #awesome:hover {
@@ -152,7 +209,8 @@ footer ul{
 #carbon {
     text-decoration: none;
     color: #70757a;
-    margin-left: 530px;
+    margin: auto;
+    margin-left: 285px;
 }
 
 #carbon:hover {
