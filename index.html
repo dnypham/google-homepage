@@ -3,40 +3,41 @@
     <title>Google</title>
     <link rel="stylesheet" href="main.css">
 </head>
+
 <body>
+
     <header>
-        <nav>
-            <ul>
-                <li><a href="#" id="about">About</a></li>
-                <li><a href="#" id="store">Store</a></li>
-                <li class="push-right"><a href="#" id="gmail">Gmail</a></li>
-                <li><a href="#" id="images">Images</a></li>
-                <li><a href="#"><img  id="apps" src="outline_apps_black_24dp.png"></a></li>
-                <li><a href="https://github.com/dnypham"><img id="profile" src="https://lh3.googleusercontent.com/ogw/ADea4I7YLt-dcwb0cx1gD7szDmAxj1d3IFcosJBM7fl1=s64-c-mo"></a></li>
-            </ul>
+        <nav class="navbar">
+            <a class="about" href="https://about.google/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header">About</a>
+            <a class="store" href="https://store.google.com/US/?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-US">Store</a>
+            <a class="gmail" href="https://accounts.google.com/ServiceLogin/signinchooser?service=mail&passive=true&rm=false&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F%26ogbl%2F&ss=1&scc=1&ltmpl=default&ltmplcache=2&emr=1&osid=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin">Gmail</a>
+            <a class="images" href="https://www.google.com/imghp?hl=en&ogbl">Images</a>
+            <a href="#"><img class ="apps" src="outline_apps_black_24dp.png"></a>
+            <a href="https://github.com/dnypham"><img class="profile" src="https://lh3.googleusercontent.com/ogw/ADea4I7YLt-dcwb0cx1gD7szDmAxj1d3IFcosJBM7fl1=s64-c-mo"></a>
         </nav>
     </header>
 
-    <div><img src="Google.png" class="google"></div>
-    <div>
-        <input type="text" class="searchbar">
-    </div>
-    <br><br>
-    <div class="buttons">
-        <button class="search-button">Google Search</button>
-        <button class="lucky-button">I'm Feeling Lucky</button>
-    </div>
-    <p>Help kids <a id="awesome" href="#">Be Internet Awesome</a> with new tools for educators</p>
+    <main class="main">
+        <img class="google" src="Google.png">
+        <br>
+        <input class ="search" type="text">
+        <br>
+        <div class="buttons">
+            <button type="button" class="google-button">Google Search</button>
+            <button type="button" class="lucky-button">I'm Feeling Lucky</button>
+        </div>
+    </main>
 
     <footer>
-        <ul>
-            <li><a href="#" id="advertising">Advertising</a></li>
-            <li><a href="#" id="business">Business</a></li>
-            <li><a href="#" id="how-search-works">How Search works</a></li>
-            <li><a href="#" id="carbon"><img id="leaf-size" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAYCAMAAAAiV0Z6AAAAPFBMVEVLoEN0wU6CzFKCzFKCzFKCzFKCzFJSo0MSczNDmkCCzFJPoUMTczNdr0gmgziCzFITczMTczMTczMTczPh00jOAAAAFHRSTlPF/+bIsms8Ad///hX+//5/tXw7aMEAx10AAACaSURBVHgBbc4HDoRQCATQ33tbvf9dF9QxaCT9UQaltLHOh/golXKhMs5Xqa0xU1lyoa2fXFyQOsDG38qsLy4TaV+sFislovyhPzLJJrBu6eQOtpW0LjbJkzTuTDLRVNKa3uxJI+VdiRqXSeu6GW+Qxi29eLIi8H7EsYrT42BD+mQtNO5JMjRuC4lSY8V4hsLX0egGijvUSEP9AbylEsOkeCgWAAAAAElFTkSuQmCC">Carbon neutral since 2007</a></li>
-            <li class="push"><a href="#" id="privacy">Privacy</a></li>
-            <li><a href="#" id="terms">Terms</a></li>
-            <li><a href="#" id="settings">Settings</a></li>
-        </ul>
+        <nav class="footer">
+            <a href="https://ads.google.com/intl/en_us/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2m--ahpm-0000000078-0000000000&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1#!/" class="advertising">Advertising</a>
+            <a href="https://smallbusiness.withgoogle.com/?subid=us-en-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google&utm_medium=ep&utm_campaign=google_hpbfooter&utm_content=google_hpbfooter&gmbsrc=us-en_US-et-gs-z-gmb-s-z-u~sb-g4sb_srvcs-u#!/" class="business">Business</a>
+            <a href="https://www.google.com/search/howsearchworks/?fg=1" class="how-search-works">How Search works</a>
+            <a href="https://sustainability.google/commitments/?utm_source=googlehpfooter&utm_medium=housepromos&utm_campaign=bottom-footer&utm_content=" class="carbon"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAYCAMAAAAiV0Z6AAAAPFBMVEVLoEN0wU6CzFKCzFKCzFKCzFKCzFJSo0MSczNDmkCCzFJPoUMTczNdr0gmgziCzFITczMTczMTczMTczPh00jOAAAAFHRSTlPF/+bIsms8Ad///hX+//5/tXw7aMEAx10AAACaSURBVHgBbc4HDoRQCATQ33tbvf9dF9QxaCT9UQaltLHOh/golXKhMs5Xqa0xU1lyoa2fXFyQOsDG38qsLy4TaV+sFislovyhPzLJJrBu6eQOtpW0LjbJkzTuTDLRVNKa3uxJI+VdiRqXSeu6GW+Qxi29eLIi8H7EsYrT42BD+mQtNO5JMjRuC4lSY8V4hsLX0egGijvUSEP9AbylEsOkeCgWAAAAAElFTkSuQmCC" id="leaf">Carbon neutral since 2007</a>
+            <a href="https://policies.google.com/privacy?hl=en&fg=1" class="privacy">Privacy</a>
+            <a href="https://policies.google.com/terms?hl=en&fg=1" class="terms">Terms</a>
+            <a href="#" class="settings">Settings</a>
+        </nav>
     </footer>
+
 </body>
