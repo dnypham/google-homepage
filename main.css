@@ -83,18 +83,16 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: 170px;
+    margin-top: 120px;
 }
 
 .google {
-    display: block;
     margin: auto;
     width: 275px;
 }
 
 .search {
-    display: flex;
-    justify-content: center;
+    display: block;
     width: 485px;
     height: 44px;
     margin-top: -20px;
@@ -262,4 +260,121 @@
 
 .settings:hover {
     text-decoration: underline;
+}
+
+@media only screen and (max-width: 1200px) {
+    .footer {
+        height: 90px;
+    }
+
+    .advertising {
+        margin-left: 190px;
+        font-size: 14px;
+        align-self: flex-end;
+        margin-bottom: 15px;
+    }
+
+    .business {
+        font-size: 14px;
+        margin-left: 30px;
+        align-self: flex-end;
+        margin-bottom: 15px;
+    }
+
+    .how-search-works {
+        font-size: 14px;
+        margin-left: 30px;
+        align-self: flex-end;
+        margin-bottom: 15px;
+    }
+
+    .carbon {
+        align-self: start;
+        margin-top: 13px;
+    }
+
+    .privacy {
+        font-size: 14px;
+        margin-left: auto;
+        margin-right: 30px;
+        align-self: flex-end;
+        margin-bottom: 15px;
+    }
+
+    .terms {
+        font-size: 14px;
+        margin-right: 30px;
+        align-self: flex-end;
+        margin-bottom: 15px;
+    }
+
+    .settings {
+        margin-right: 190px;
+        font-size: 14px;
+        align-self: flex-end;
+        margin-bottom: 15px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .footer {
+        height: 130px;
+    }
+
+    .advertising {
+        margin-left:20px;
+        font-size: 14px;
+        align-self: center;
+        margin-bottom: 5px;
+    }
+
+    .business {
+        font-size: 14px;
+        margin-left: 30px;
+        align-self: center;
+        margin-bottom: 5px;
+    }
+
+    .how-search-works {
+        font-size: 14px;
+        margin-left: 30px;
+        align-self: center;
+        margin-bottom: 5px;
+        white-space: nowrap;
+    }
+
+    .carbon {
+        align-self: start;
+        margin-top: 13px;
+    }
+
+    .privacy {
+        font-size: 14px;
+        position: absolute;
+        bottom: 2px;
+        left: 0;
+        right: 120px;
+        text-align: center;
+    }
+
+    .terms {
+        font-size: 14px;
+        position: absolute;
+        bottom: 2px;
+        left: 10px;
+        right: 0;
+        text-align: center;
+    }
+
+    .settings {
+        font-size: 14px;
+        position: absolute;
+        bottom: 2px;
+        left: 310px;
+        right: 0;
+        text-align: center;
+    }
+    .search {
+     width: 54%;
+    }
 }
