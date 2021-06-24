@@ -131,6 +131,11 @@
     background-color: #f8f8f8;
 }
 
+.google-search-link {
+    color: #222;
+    text-decoration: none;
+}
+
 .google-button:hover {
     box-shadow: 0 1px 1px rgba(0,0,0,.1);
     border-style: solid;
